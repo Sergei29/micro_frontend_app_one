@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-const Header = ({}: Props): JSX.Element => {
+const Nav = ({}: Props): JSX.Element => {
   return (
     <div
       style={{
@@ -18,9 +18,9 @@ const Header = ({}: Props): JSX.Element => {
         paddingLeft: "15px",
       }}
     >
-      Name
+      Navbar
     </div>
   );
 };
 
-export default Header;
+export default Nav;
