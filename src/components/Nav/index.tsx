@@ -4,7 +4,7 @@ type Props = {};
 
 const Nav = ({}: Props): JSX.Element => {
   return (
-    <div
+    <nav
       style={{
         background: "black",
         width: "100%",
@@ -12,14 +12,16 @@ const Nav = ({}: Props): JSX.Element => {
         color: "white",
         textAlign: "center",
         display: "flex",
-        justifyContent: "left",
+        justifyContent: "center",
         alignItems: "center",
         fontSize: "24px",
         paddingLeft: "15px",
       }}
     >
-      Navbar
-    </div>
+      <h2>
+        Navbar <small>(from the frontend one)</small>
+      </h2>
+    </nav>
   );
 };
 

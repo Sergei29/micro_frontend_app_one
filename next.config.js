@@ -12,7 +12,10 @@ const nextConfig = {
         remotes: {
           frontend_three: `frontend_three@http://localhost:3002/_next/static/${
             isServer ? "ssr" : "chunks"
-          }/remoteEntry.js`,
+          }/remoteEntry_3.js`,
+          frontend_two: `frontend_two@http://localhost:3001/_next/static/${
+            isServer ? "ssr" : "chunks"
+          }/remoteEntry_2.js`,
         },
         filename: "static/chunks/remoteEntry.js",
         exposes: {
